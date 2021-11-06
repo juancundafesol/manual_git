@@ -21,9 +21,15 @@ Después de haber instalado Git podrás usar Git Bash
 
 ### Inicia mi primer repositorio local:
 
-1.El primer paso es crear una carpeta en un directorio local
+1. El primer paso es crear una carpeta en un directorio local
 
 ```
 $cd ubicacion_archivo # este comando te permite ubicarte en la carpeta donde quieres crear un nuevo directorio que contendrá el repositorio
 $mkdir nombre_carpeta # este comando te permite crear una carpeta en al dirección especificada con el nombre “nombre_carpeta”
+```
+
+2. Iniciar un repositorio en la carpeta creada
+```
+$cd nombre_carpeta #Así nos movemos dentro de la carpeta creada previamente. 
+$git init # Iniciar un repositorio *vacío* en la carpeta.
 ```
